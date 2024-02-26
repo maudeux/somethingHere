@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* universal selector */
+*{
+    color:white;
+    font-family: 'Poppins' , sans-serif;
+    background: #0d1e3a;
+    text-align: center;
+}
+
+h1{
+    font-size: large;
+}
+
+body{
+    
+    /* spacing properties 
+    difference between padding and margin---> 
+    padding is the space within
+    margin is the space outside*/
+
+    padding: 30px;
+    margin: 30px;
+
+
+}
+
+p{
+    font-size: small;
+}
+
+.profile{
+    /* more circular */
+    border-radius: 1%;
+}
+
+.btn{
+    /* note: makes everything appear below */
+    display: block;
+
+    text-decoration: none;
+    background: white;
+    color: black;
+    margin: 25px;
+    padding:30px 5px;
+    box-shadow: 5px 10px #888888;
+    cursor: pointer;
+
+}
+
+/* changes colour when you hover  */
+.btn:hover{
+    background: rgba(132,55,249);
+    color: white;
+
+    /* note: for delay */
+    transition: 0.1s; 
+}
+
+.social-icons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.social-icon{
+    margin: 6px;
+    cursor: pointer;
+}
+
+/* element selector */
+/* h2{
+    color:black
+} */
+
+/* id selector */
+/* #my-heading{ 
+    color: red
+} */
+
+
+/* class selector */
+/* .heading{ 
+    color: yellow
+} */
+
+/* set background color--->>> replace color with background-color */
